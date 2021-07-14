@@ -1,0 +1,15 @@
+Class component mein withStyles ka use karte hai
+className = {classes.container} aise use karenge className wala
+
+
+
+
+
+Function component mein makeStyles ka 
+className = {this.props.classes.container} aise use karenge className wala
+
+
+
+{data: {confirmed, deaths, recovered, lastUpdate}}
+ise destructuring kehte hai mtlb use to data.death, data.confirmed karke bhi kar sakte the 
+lekin abb direct confirm delete use kar sakte hai 
